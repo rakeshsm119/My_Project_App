@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&family=Lobster&family=Noto+Sans:ital,wght@1,700&family=Roboto:wght@300;500&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.simple{
+    margin: 0%;
+    padding: 0%;
+    height: 600px;
+    background: linear-gradient(rgba(74, 98, 121, 0.566),rgba(111, 162, 182, 0.612)),url(../images/nav.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navBar{
+    background-color:rgba(108, 138, 150, 0.504);
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.1rem;
+    position: sticky;
+    top: 0;
+}
+.navBar>h1{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.navBar>ul{
+    list-style-type: none; 
+    float: right;   
+}  
+.navBar>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+.navBar>ul>li>a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+
+}
+.navBar>ul>li>a:hover{
+    color: #2552f3;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 3px;
+}
+/*Header */
+.simple>header{
+    padding-block-start: 18%;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.simple>header>h1{
+    font-size: 50px;
+    
+}
+.simple>header>p{
+    padding: 20px;
+    margin: auto 300px ;
+}
+.simple>header>button{
+    padding: 15px;
+    color: azure;
+    background-color: rgba(100, 185, 185, 0.849);
+    border-radius: 20px;
+    border: none;
+}
+.simple>header>button:hover{
+    color: #2552f3;
+    background-color: #fff;
+}
+/*WELCOME WEBSITE*/
+.welcome{
+    padding: 10px;
+    text-align: center;
+    color: #2552f3;
+    font-family: 'Noto Sans', sans-serif;
+}
+.welcome>h1{
+    font-size:25px;
+}
+.welcome>p{
+    padding: 20px;
+    margin: auto 200px;
+}
+.welcome>button{
+    padding: 10px;
+    width: 120px;
+    color: #2552f3;
+    border-radius: 25px;
+    border-color: #2552f3;
+}
+/* WELSET SECTION*/
+.welSet{
+    position: relative;
+    background-color: #2552f3;
+    height: 200px;
+    display: flex;
+    text-align: center;
+}
+.card{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+.card>h3{
+    padding: 10px;
+}
+.car2{
+    background-color: black;
+}
+/*OUR SECTION*/
+.our{
+    padding: 10px;
+    text-align: center;
+    color: #2552f3;
+    font-family: 'Noto Sans', sans-serif;
+}
+.our>h1{
+    font-size:25px;
+}
+.our>p{
+    padding: 20px;
+    margin: auto 200px;
+}
+/*OUR SERVICES SECTION*/
+
+.services{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+} 
+.div-d{
+    width: 330px;
+    height: 65px;
+    display: flex;
+    background-color: rgb(249, 243, 243);
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+    align-items: center;
+    margin: 10px;
+    color: #2552f3;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.div-d i{
+    border: 3px solid #2552f3;
+    padding: 15px;
+    border-spacing: 50px;
+    border-radius: 50%;
+}
+.div-d h4{
+    padding: 10px;
+}
+
+/*CALPRO SECTION*/
+.calPro{
+    background-color: #2552f3;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.cal{
+    text-align: center;
+}
+.cal>i{
+    margin: 1rem;
+}
+.cal>h1{
+    padding: 10px;
+}
+.cal>h1::after{
+    content: "+";
+    font-size: 20px;
+}
+
+/*PORTFOLIO SECTION*/
+.portFolio{
+    padding: 10px;
+    text-align: center;
+    color: #2552f3;
+    font-family: 'Noto Sans', sans-serif;
+}
+.portFolio>h1{
+    font-size:25px;
+}
+.portFolio>p{
+    padding: 20px;
+    margin: auto 200px;
+}
+.portFolio>aside{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.portFolio>aside>h3{
+    padding: 10px;
+}
+.portFolio>aside>h3:hover{
+    text-decoration: underline;
+    text-underline-position:under;
+    text-decoration-thickness: 3px;
+}
+/*IMAGE SECTION*/
+.image{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.image img{
+    width: 350px;
+    height: 200px;
+}
+.footer{
+    background-color: #2552f3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer img{
+    width: 100px;
+    height: 80px;
+    margin-top: 15px;
+    border-bottom-left-radius:40%;
+    border-top-left-radius:50%;
+}
+.footer div{
+    text-align: left;
+    padding: 20px;
+}
+.footer div p{
+    justify-content: center;
+}
